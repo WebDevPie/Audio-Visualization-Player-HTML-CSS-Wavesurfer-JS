@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualization | Wavesurfer.js</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player-wrap">
+        <div id="audiowave"></div>
+        <div class="audio-controls">
+            <button type="button" class="btn-backward">
+                <i class="fa fa-step-backward"></i>
+            </button>
+            <button type="button" class="btn-toggle-pause">
+                <i class="fa fa-play"></i> <i class="fa fa-pause"></i>
+            </button>
+            <button type="button" class="btn-forward">
+                <i class="fa fa-step-forward"></i>
+            </button>
+            <button type="button" class="btn-toggle-mute">
+                <i class="fa fa-volume-off"></i>
+            </button>
+            <button type="button" class="btn-stop">
+                <i class="fa fa-stop"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

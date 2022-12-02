@@ -1,0 +1,36 @@
+body {
+    background-color: #2b2b2b;
+    margin: 0;
+}
+
+.player-wrap {
+    width: 90%;
+    margin: 200px auto;
+}
+
+.audio-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #5df9de;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: none;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+
+button:hover {
+    background-color: #44b2a0;
+}
+
+button i {
+    font-size: 20px;
+    color: #2b2b2b;
+}
+
